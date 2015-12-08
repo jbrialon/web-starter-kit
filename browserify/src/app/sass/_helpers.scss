@@ -1,0 +1,49 @@
+/*==========  HELPERS  ==========*/
+.relative {
+    position:relative;
+}
+
+.height100{
+    height: 100%;
+}
+
+.width100{
+    width: 100%;
+}
+
+.invisible{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.noselect {
+    user-select: none;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.center {
+    text-align:center;
+}
+
+// Hide text but keep it accessible
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.outer {
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.inner {
+    display:table-cell;
+    vertical-align:middle;
+}

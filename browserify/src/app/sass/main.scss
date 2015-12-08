@@ -1,0 +1,19 @@
+@import "vendor/breakpoint";
+@import "cacheBuster";
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "sprite";
+@import "icons";
+@import "helpers";
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/**
+ * Global
+ */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}

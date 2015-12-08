@@ -1,0 +1,20 @@
+@import "sprite";
+@import "cacheBuster";
+
+@mixin negativeMarginIcon($icon){
+    margin-left: sprite-width($icon) / -2;
+    margin-top: sprite-height($icon) / -2;
+}
+
+/* Redefine image with cache buster */
+
+.icon {
+  background-image: url('../assets/images/sprite@2x.png?#{$cacheBuster}');
+  margin:auto;
+}
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .icon {
+    background-image: url('../assets/images/sprite@2x.png?#{$cacheBuster}');
+  }
+}
