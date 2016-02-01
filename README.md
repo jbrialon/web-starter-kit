@@ -23,7 +23,7 @@ $ npm install jquery --save // to require using browserify
   - [browserSync](https://www.browsersync.io/). for hot reloading and multi device testing
   - Source maps (for js and css)
 
-- `gulp served`: Production ready build.
+- `gulp build`: Production ready build.
   - JavaScript minified with [gulp-uglify](https://www.npmjs.com/package/gulp-uglify).
   - CSS Minify
   - CSS Cachebuster to force the reload of assets
