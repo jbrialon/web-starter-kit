@@ -9,7 +9,7 @@ Using Gulp + browserify
 ``` bash
 $ cd browserify
 $ npm install
-$ npm install jquery --save
+$ npm install jquery --save // to require using browserify
 ```
 
 ### What's Included
