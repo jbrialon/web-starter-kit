@@ -1,6 +1,6 @@
 # web-starter-kit
 
-Using Gulp + browserify
+Personnal build workflow using gulp and browserify
 
 
 ### Usage
